@@ -12,7 +12,7 @@ class SessionsController < ApplicationController
   	  session[:reviewer_id] = reviewer.id
   	  redirect_to root_path, notice: "Logged in successfully"
   	else
-  	  
+  	   session[:reviewer_id] = reviewer.id
       redirect_to root_path, notice: "Logged in successfully"
   	end
   end
