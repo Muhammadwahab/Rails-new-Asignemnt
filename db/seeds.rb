@@ -23,8 +23,8 @@ eloquent.notes.create! [
 ]
 
 reviewers = Reviewer.create! [
-	{ name: "Joe", password: "abc123" },
-	{ name: "Jim", password: "123abc" }
+	{ name: "wahab", password: "wahab" },
+	{ name: "waqas", password: "waqas" }
 ]
 
 Book.all.each do |book|
